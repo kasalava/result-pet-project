@@ -39,8 +39,14 @@ body {
     bottom: 20px;
     left: 20px;
     margin: 0;
+    opacity: 0;
 }
 
 .slide.active {
-flex: 10;
+flex: 10; /*увеличивает активную картинку*/
+}
+
+.slide.active h3 {
+    opacity: 1; /*когда слайд активный*/
+    transition: opacity 0.3s ease-in;/*добавляем анимацию, (из-ин это функция)*/
 }
