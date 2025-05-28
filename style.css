@@ -32,6 +32,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     position: relative; /*каждый заголовко позиционировался с каждыйм слайдом*/
+    transition: all 500ms ease-in-out; /*анимируем все слайды*/
 }
 .slide h3 {
     position: absolute;
